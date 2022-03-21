@@ -11,4 +11,4 @@ tscore = 1 - tcdf(t, n-1)
 
 [h,p,ci,stats] = ttest(rand, m, 0.01, "right")
 % The returned value h = 1 indicates that ttest rejects the null hypothesis at the 5% significance level.
-
+% h = 0
